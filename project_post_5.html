@@ -1,0 +1,257 @@
+  <!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>ABOUT ME | KANGYEON LEE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="project_post_2" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="kangyeonlee" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="img/main_photo.jpg" alt="Alex Smith">
+              </div>
+              <div class="header-titles">
+                <h2>Kangyeon Lee</h2>
+                <h4>Cybersecurity</h4>
+                <h4>Network Engineering Technology</h4>
+                <h4>Undergraduate @ Purdue University</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="index.html#project" class="nav-anim">
+                  <span class="menu-icon lnr lnr-arrow-left-circle"></span>
+                  <span class="link-text">back</span>
+                </a>
+              </li>
+              <li class="active">
+                <a href="index.html#home" class="nav-anim">
+                  <span class="menu-icon lnr lnr-home"></span>
+                  <span class="link-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">About Me</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat"></span>
+                  <span class="link-text">Resume</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#project" class="nav-anim">
+                  <span class="menu-icon lnr lnr-book"></span>
+                  <span class="link-text">Projects</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/kangyeonlee/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <!--<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>-->
+                <li><a href="https://twitter.com/HuyU_2496" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/dkssud2496" target="_blank"><i class="fab fa-github"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="header-buttons">
+              <a href="https://s3.us-west-1.amazonaws.com/kangyeonlee.com/files/kangyeon_lee_resume.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
+            </div>
+          
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <div class="content-area single-page-area">
+            <div class="single-page-content">
+
+              <article class="post">
+
+                <div class="post-thumbnail">
+                  <img src="img/project/aws_s3.png" alt="image">
+                </div>
+
+                <div class="post-content">
+                  <!-- /Entry header -->
+                  <header class="entry-header">
+                    <!-- Entry meta -->
+                    <div class="entry-meta entry-meta-top">
+                      <span><a href="#" rel="category tag">Web Hosting</a></span>        
+                    </div>
+                    <!-- /Entry meta -->
+
+                    <h2 class="entry-title">Web Hosting using AWS S3, ACM, Cloudfront, and Route 53</h2>
+                  </header>
+                  <!-- /Entry header -->
+
+                  <!-- Entry content -->
+                  <div class="entry-content">
+                    <div class="row">
+                      <div class=" col-xs-12 col-sm-12 ">
+                        <div class="col-inner">
+
+                          <div class="white-space-50"></div>
+
+                          <!-- objectives paragraph -->
+                          <h3>Introdution</h3>
+                          <p><br>Finally! I get to talk about how I built this website and publicized using AWS S3, ACM, Cloudfront, and Route 53. <strike>YAY</strike>
+                            <br>Since there are quite a lot of guides out there for creating a website using AWS services to deploy a website, in this page, I would like to talk about
+                            issues that I faced during the deployment of my web server. Hope you find this post useful. <strike>Lets get started.</strike>
+                          </p>
+                          <!-- End of objectives paragraph -->
+
+                          <div class="white-space-50"></div>
+
+                          <!-- bucket naming paragraph -->
+                          <h3>AWS S3 Bucket Naming</h3>
+                          <p><br><b>YOUR BUCKET NAMING SHOULD BE THE WEBSITE DOMAIN NAME.</b> 
+                          <p> Apparently, according to <a href="https://stackoverflow.com/questions/25883888/why-amazon-s3-bucket-name-must-be-the-same-as-website-name-when-hosting-a-static" target="_blank" style="color: rgb(245,133,69);">this Stackoverflow forum</a>, that is how Amazon designed it. At first, I didn't set my bucket name to my domain name, so I had to recreate the bucket in order to make it work.
+                          </p>
+                          <!-- End of bucket naming paragraph -->
+
+                          <div class="white-space-50"></div>
+
+                          <!-- img not loading paragraph -->
+                          <h3>Images Not Loading</h3>
+                          <p><br>When I first deployed my webserver, I had a problem that some images from the website were not loading. I had no idea why because when I open my web server locally, the images were loading fine. At last, I found out that S3 is case sensitive and Windows is not. I found out that the file extensions of some image files were in CAPS, and that was the reason why some images were not loading. 
+                          </p>
+                          <!-- End of img not loading paragraph -->
+
+                          <div class="white-space-50"></div>
+
+                          <!-- Certificate Creation paragraph -->
+                          <h3>Certificate Creation</h3>
+                          <p><br>After you purchase your domain and confirmed that you website is accessible publicly but without encryption (HTTPS), you will be first creating a certificate for your website through Amazon Certificate Manager. However, if you decide to both allow using yourdomain.com and www.yourdomain.com to access your website, you will have to register both domains when creating your certificate. 
+                          </p>
+
+                          <blockquote class="quote">
+                            <img src="img/project/acm_domains.png" alt="image">
+                            <footer class="quote-author">
+                              <span><br>As you see here, I created two domains (one for root domain and one with * on it)</span>
+                            </footer>
+                          </blockquote>
+                          <!-- End of Certificate Creation paragraph -->
+
+                          <div class="white-space-50"></div>
+
+                          <!-- dns records paragraph -->
+                          <h3>DNS records</h3>
+                          <p><br>After creating certificate using ACM, creating records for the certificate in Route 53, and creating your distribution using AWS CloudFront, you will have to create DNS records in order to map your URL to your CloudFront distribution. In order to allow both yourdomain.com and www.yourdomain.com access to your website using HTTPS, you simply have to create two DNS records routing the traffic to the <b>CloudFront</b> distribution that you created. Again,  your <b>CloudFront</b> distribution, not your auto-populated S3 bucket address.  
+                          </p>
+
+                          <blockquote class="quote">
+                            <img src="img/project/dns_records.png" alt="image">
+                          </blockquote>
+                          <!-- End of dns records paragraph -->
+
+                          <div class="white-space-50"></div>
+
+                          <!-- Update website paragraph -->
+                          <h3>Updating Your Website</h3>
+                          <p><br>After my website was successfully deployed, I made some changes to my HTML file and uploaded on S3 bucket. However, when I load my website, it did not reflect my update. This was because AWS CloudFront enables to cache the contents on the AWS edge locations near end-users to deliver the contents faster by avoiding access to origin. Enable to update the content on the edge locations, Invalidations have to be made whenever a content is updated. 
+                          </p>
+                          <p>When you face this issue, go to your CloudFront, create an invalidation with /* to create invalidation on all object paths.</p>
+                          <!-- End of updaate website paragraph -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Entry content -->
+    
+                  <div class="entry-meta entry-meta-bottom">
+                    <div class="date-author">
+                      <span class="entry-date">
+                        <a href="#" rel="bookmark">
+                          <i class="far fa-clock"></i> <span class="entry-date"> Jul 22, 2022</span>
+                        </a>
+                      </span>
+                      <span class="author vcard">
+                        <a class="url fn n" href="#" rel="author"> <i class="fas fa-user"></i> Kangyeon Lee</a>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="post-tags">
+                    <div class="tags">
+                      <a href="#" rel="tag">AWS</a>
+                      <a href="#" rel="tag">S3</a>
+                      <a href="#" rel="tag">CloudFront</a>
+                      <a href="#" rel="tag">Route 53</a>
+                      <a href="#" rel="tag">Web Hosting</a>
+                      <a href="#" rel="tag">Certificate</a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
